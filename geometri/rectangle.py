@@ -1,4 +1,6 @@
-class Rectangle():
+from geometri.parent_geometry import ParentGeometry
+
+class Rectangle(ParentGeometry):
     def __init__(self, width, height):
         self.width = width
         self.height = height
