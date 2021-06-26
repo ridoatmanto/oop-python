@@ -6,7 +6,7 @@ class Rectangle(ParentGeometry):
         self.height = height
 
     def info(self):
-        return f'This result is {self.width} and {self.height}'
+        return f'This Rectangle is width: {self.width} and height: {self.height}'
 
     def count_area(self):
         return self.width * self.height

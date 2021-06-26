@@ -15,3 +15,13 @@ print(f'Triangle Count Area is {triangle.count_area()}')
 geometry = ParentGeometry()
 print(geometry.info())
 print(geometry.count_area())
+
+list_objects = []
+list_objects.append(rectangle)
+list_objects.append(triangle)
+print('\nPolymorphism')
+for object in list_objects:
+    print(f'Info {object.info()}')
+    print(f'Count Area {object.count_area()}')
+
+print('-'*22)
